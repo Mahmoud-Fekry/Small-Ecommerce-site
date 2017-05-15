@@ -1,0 +1,242 @@
+/*Start main rules*/
+
+body{
+    background-color: #F4F4F4;
+    font-size: 16px;
+}
+
+.btn{
+    margin:2px;
+}
+
+/*End main rules*/
+
+/*  Start Login form  */
+
+.login{
+    width: 400px;
+    margin: 100px auto;
+}
+
+.login h3{
+    color: #666;
+    margin-bottom: 20px
+}
+
+.login input{
+    margin-bottom: 10px;    
+}
+
+.login .form-control{
+    background-color: #EAEAEA;
+}
+
+/*  End Login form  */
+
+/*Start Bootstrap edits*/
+
+.navbar{
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.nav > li > a,
+.navbar-brand{
+    padding: 15px 12px
+}
+
+.navbar-brand{
+    font-size: 1em;
+}
+
+/*End Bootstrap edits*/
+
+/* Start Dashboard Page */
+
+.home-stat .stat{
+    background-color: #EEE;
+    border: 1px solid #CCC;
+    padding: 20px;
+    color: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.home-stat .stat .d-icon{
+    float:left
+}
+
+.home-stat .stat a{
+    color: #fff;
+}
+
+.home-stat .stat a:hover{
+    text-decoration: none
+}
+
+.home-stat .stat .info span{
+    display: block;
+    font-size: 60px
+}
+
+.home-stat .st-members{
+    background-color: #3498db;
+}
+
+.home-stat .st-pending{
+    background-color: #c0392b
+}
+
+.home-stat .st-items{
+    background-color: #d35400
+}
+
+.home-stat .st-comments{
+    background-color: #8e44ad
+}
+
+.latest{
+    margin-top: 30px
+}
+
+.latest .toggle-info{
+    color: #222;
+    cursor: pointer;
+}
+
+.latest .toggle-info:hover{
+    color: #444;
+}
+
+.latest .latest-users{
+    padding: 5px;
+}
+
+.latest .latest-users li{
+    padding: 6px;
+    overflow: hidden
+}
+
+.latest .latest-users li:nth-child(odd){
+    background-color: #DDD
+}
+
+.latest .latest-users li .btn{
+    margin-left: 5px
+}
+
+.latest .comment-box{
+    margin: 5px 0 10px;
+}
+
+.latest .comment-box .user-name{
+    float:left;
+    width: 80px;
+    margin-right: 20px;
+    position: relative;
+    top:12px;
+    color: #007fff;
+    font-weight: bold;
+}
+
+.latest .comment-box .user-comment{
+    float:left;
+    width: calc(100% - 100px);
+    background-color: #DDD;
+    padding: 15px;
+    margin-bottom:8px;
+    position: relative;
+}
+
+.latest .comment-box .user-comment:before{
+    content: "";
+    position: absolute;
+    top: 10px;
+    left:-30px;
+    width:0px;
+    height: 0px;
+    border: 15px solid;
+    border-color: transparent #DDD transparent transparent;
+
+}
+
+/* End Dashboard Page */
+
+/* Start Categories Page */
+
+.order span{
+    font-weight: bold
+}
+
+.order a{
+    color: #555;
+}
+
+.order a:hover{
+    text-decoration: none;
+}
+
+.order a.active{
+    color: #DD3333;
+    font-weight: bold
+}
+
+.category-yes{
+    margin-right: 25px
+}
+
+/* End Categories Page */
+
+
+/* Start member page*/
+
+h1{
+    font-size: 60px;
+    margin: 40px 0;
+    font-weight: bold;
+    color: #555;
+}
+
+.asterisk{
+    position: absolute;
+    font-size: 30px;
+    right: 0px;
+    top: 10px;
+    color: #dd3333
+    
+}
+
+.main-table tr:first-child{
+    background-color: #333;
+    color: #fff
+}
+
+.selectboxit-container span,
+.selectboxit-container .selectboxit-options a{
+    height: 46px;
+    line-height: 46px;
+    overflow: hidden;
+    font-size: 15px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

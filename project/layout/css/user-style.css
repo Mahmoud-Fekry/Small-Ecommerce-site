@@ -1,0 +1,281 @@
+/*Start main rules*/
+
+body{
+    background-color: #F4F4F4;
+    font-size: 16px;
+}
+
+.btn{
+    margin:2px;
+}
+
+h1{
+    font-size: 60px;
+    margin: 20px 0;
+    font-weight: bold;
+    color: #555;
+}
+
+.asterisk{
+    position: absolute;
+    font-size: 30px;
+    right: 0px;
+    top: 10px;
+    color: #dd3333
+}
+
+.error-msg,
+.success-msg{
+    color: #a94442;
+    background-color: #ebccd1;
+    padding: 8px;
+    margin: 8px auto;
+    width:35%;
+    border-radius: 20px;
+}
+
+.success-msg{
+    color: #3c763d;
+    background-color: #dff0d8;
+}
+
+.custom-hr{
+    border-color: #DDD;
+}
+
+/*End main rules*/
+
+/*Start Bootstrap edits*/
+
+.navbar{
+    border-radius: 0;
+    margin-bottom: 20px;
+}
+
+.nav > li > a,
+.navbar-brand{
+    padding: 15px 12px
+}
+
+.navbar-brand{
+    font-size: 1em;
+}
+
+/*End Bootstrap edits*/
+
+/* Start header */
+
+.upper-bar{
+    background-color: #FFF;
+    padding:5px
+}
+
+.upper-bar .my-info{
+    display: inline-block;
+}
+
+.upper-bar .my-info .my-image{
+    max-width: 50px;
+    margin-right: 7px;
+}
+
+.upper-bar ul{
+    padding-top: 20px;
+}
+
+.upper-bar ul li{
+    display: inline-block;
+    margin-left: 5px;
+    margin-right:5px;
+
+}
+
+/* End header */
+
+/* Start login page */
+
+.login-page form{
+    max-width: 400px;
+    margin: auto;
+}
+
+.login-page form input{
+    margin-bottom: 10px;
+}
+
+.login-page [data-class="login"].active{ color: #337AB7}
+
+.login-page [data-class="sign-up"].active{ color: #5cb85c}
+
+.login-page h1{
+    color: #C0C0C0
+}
+
+.login-page h1 span{
+    cursor: pointer;
+}
+
+.login-page .sign-up{
+    display: none;
+}
+
+/* End login page */
+
+
+/* Start Category page */
+
+.item-box{
+    position:relative;
+    overflow: hidden;
+    height:300px;
+}
+
+.item-box .item-price, .not-approve{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    background-color: #CCC;
+    padding: 10px;
+    font-weight:bold;
+}
+
+.add-date{
+    float:right;
+    color:#777;
+    font-size: 14px;
+    font-weight:bold;
+    margin-top: 75px;
+}
+
+.description{
+    font-size: 15px;
+    color: #444;
+}
+
+/* End Category page */
+
+/* Start profile page*/
+
+.information{
+    margin-top: 20px;
+}
+
+.block .panel-body{
+    padding: 10px
+}
+
+.information ul{
+    padding: 0;
+    margin: 0;
+}
+
+.information ul li{
+    padding: 10px;
+}
+
+.information ul li:nth-child(odd){
+    background-color: #EEE;
+}
+
+.information ul li span{
+    display: inline-block;
+    width: 180px;
+}
+
+.not-approve{
+    font-weight: bold;
+    left: 50%;
+    background-color: #f00;
+    color: #fff;
+}
+
+
+/* End profile page*/
+
+/* Start new Ads page*/
+
+.new-ads .panel-body{
+    padding:20px;
+}
+
+/* End new Ads page*/
+
+/* Start item page */
+
+.item-details{
+    padding-top:30px;
+}
+
+.item-info ul li{
+    padding: 10px;
+}
+
+.item-info ul li:nth-child(odd){
+    background-color: #DDD;
+}
+
+.item-info ul li span{
+    font-weight: bold;
+    display: inline-block;
+    width: 150px;
+}
+
+.add-comment h3{
+    margin-bottom: 30px;
+}
+
+.add-comment form textarea{
+    display: block;
+    margin-bottom: 20px;
+    width: 600px;
+    height: 120px;
+    resize: none;
+}
+
+.comment-box{
+    margin-bottom:30px;
+}
+
+.comment-box img{
+    margin-bottom:10px;
+    max-width: 100px;
+}
+
+.comment-box .lead{
+    background-color: #DDD;
+    position: relative;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.comment-box .lead:before{
+    content: "";
+    width: 0;
+    height:0;
+    border-width: 15px;
+    border-style: solid;
+    border-color: transparent #DDD transparent transparent;
+    position: absolute;
+    left: -29px;
+    top: 7px;
+}
+
+/* End item page */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
